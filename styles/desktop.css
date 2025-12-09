@@ -1,0 +1,44 @@
+/* ======= HEADER + NAVIGATION ======= */
+header {
+    background-color: #2e7d32;  /* vert maraîcher */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ======= SECTION HERO ======= */
+#hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+}
