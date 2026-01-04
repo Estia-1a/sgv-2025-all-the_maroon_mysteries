@@ -25,6 +25,33 @@
         </section>
 
         <section class="container" style="max-width: 800px; margin: 40px auto; padding: 20px;">
+            <form action="#" method="post" class="form-commande">
+                <div class="form-group">
+                    <label for="nom">Nom complet :</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required placeholder="Votre email">
+                </div>
+
+                <div class="form-group">
+                    <label for="panier">Votre choix :</label>
+                    <select id="panier" name="panier">
+                        <option value="petit">Petit Panier (10€)</option>
+                        <option value="moyen">Panier Moyen (20€)</option>
+                        <option value="grand">Grand Panier Famille (35€)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message ou précisions :</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn-commande" style="width: 100%; border: none; font-size: 1.1rem; cursor: pointer;">Envoyer ma commande</button>
+            </form>
             </section>
     </main>
 
